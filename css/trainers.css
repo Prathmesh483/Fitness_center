@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.content{
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 20px;
+    color: #333;
+}
+
+header .search-add {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+header input {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+header button {
+    background-color: rgba(0, 133, 229, 0.68);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #DDDDDD;
+    color: black;
+}
+
+table thead th {
+    padding: 12px;
+    text-align: left;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+table tbody td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+table tbody td img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+table tbody td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+table tbody td a:hover {
+    text-decoration: underline;
+}
+
+table tbody .edit {
+    cursor: pointer;
+    background-color: (221, 221, 221, 1);
+    margin-right: 8px;
+}
+
+table tbody .delete {
+    cursor: pointer;
+    color: red;
+}
+
+.icon{
+    margin-left: 10px;
+    height: 5px;
+    width: 5px;
+}
+
+.search-icon{
+    margin-left: -15%;
+    top: 10px;
+    vertical-align: middle;
+}
