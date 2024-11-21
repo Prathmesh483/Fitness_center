@@ -4,9 +4,13 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
+.main {
+    max-height: 100vh;
+}
 .content{
     padding: 1rem;
+    height: 86vh;
+    overflow: auto;
 }
 
 header {
@@ -14,6 +18,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    position: sticky;
 }
 
 header h1 {
@@ -49,6 +54,7 @@ header button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
+    
 }
 
 table thead {
@@ -61,6 +67,11 @@ table thead th {
     text-align: left;
 }
 
+ .table{
+    height: 50vh;
+    overflow: auto;
+}
+
 table tbody tr {
     border-bottom: 1px solid #ddd;
 }
@@ -70,14 +81,14 @@ table tbody tr:hover {
 }
 
 table tbody td {
-    padding: 12px;
+    padding: 10px;
     text-align: left;
     vertical-align: middle;
 }
 
 table tbody td img {
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     object-fit: cover;
 }
