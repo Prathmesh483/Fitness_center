@@ -52,6 +52,16 @@ header button:hover {
     background-color: #0056b3;
 }
 
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button a img {
+    vertical-align: middle;
+    padding-left: 0.5rem;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;

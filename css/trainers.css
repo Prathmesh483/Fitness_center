@@ -51,6 +51,16 @@ header button:hover {
     background-color: #0056b3;
 }
 
+button a{
+    text-decoration: none;
+    color: white; 
+}
+
+button a img{
+    vertical-align: middle;
+    padding-left: 0.5rem;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -87,8 +97,8 @@ table tbody td {
 }
 
 table tbody td img {
-    width: 15px;
-    height: 15px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -113,10 +123,10 @@ table tbody .delete {
     color: red;
 }
 
-.icon{
+.icon img{
     margin-left: 10px;
-    height: 5px;
-    width: 5px;
+    height: 30px;
+    width: 30px;
 }
 
 .search-icon{

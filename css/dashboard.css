@@ -47,10 +47,11 @@
 }
 
 .info{
-    height: auto;
+    height: 60vh;
     width: 100%;
     display: flex;
     gap: 0px;
+    margin-top: -1.5rem;
 }
 
 /* kjdbsjdbksjbd */
@@ -66,11 +67,11 @@ h2 {
 }
 
 table {
+    height: 0vh;
     width: 100%;
     border-collapse: collapse;
     background: #fff;
     border-radius: 8px;
-    overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -113,7 +114,7 @@ tbody tr:hover {
     gap: 10px;
 }
 
-h2 {
+.info h2 {
     margin-bottom: 20px;
     color: #333;
 }
