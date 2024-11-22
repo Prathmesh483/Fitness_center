@@ -35,7 +35,7 @@ The website features a user-friendly interface, vibrant design, and informative 
 
 1. Clone this repository or download the source code:
    ```bash
-   git clone https://github.com/yourusername/fitness-centre.git
+   git clone https://github.com/Prathmesh483/Fitness_center.git
 
 2. Open the index.html file in a web browser to view the website.
 
