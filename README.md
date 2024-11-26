@@ -4,6 +4,12 @@ Welcome to the **Fitness Centre Gym Website** project! This dynamic and engaging
 
 ---
 
+## **Live Demo**
+
+🚀 Experience the **Fitness Centre Gym Website** live:  
+**[Click Here to View the Demo](https://fitcentre.netlify.app/)**
+
+
 ## **About the Project**
 
 This project is developed as part of the **Corporate Social Responsibility (CSR) program by Sahyadri Software**, aimed at fostering technical skills and real-world web development experience. The initiative reflects a commitment to community growth and technical empowerment.
