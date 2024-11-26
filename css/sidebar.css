@@ -137,3 +137,8 @@ body{
     color: #FF9750;
     /* Change text color */
 }
+
+@media screen and (max-width: 480px){
+    
+
+}

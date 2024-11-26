@@ -25,7 +25,7 @@
                                 otherArrow.classList.remove('active'); // Remove active class from other down-arrows
                             }
                         });
-
+                        
                         // Show the current submenu and apply styles
                         subMenu.style.display = 'block';
                         subMenu.querySelector('ul').style.backgroundColor = 'rgba(255, 255, 255, 0.16)';

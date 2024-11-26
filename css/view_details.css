@@ -13,7 +13,7 @@
 .dashboard {
     width: 76.5vw;
     height: 80vh;
-    background-color: #FBFBFB;
+    background-color: white;
     margin: 2rem;
     margin-top: 1%;
     border: 2px solid #6E6E6E;
@@ -41,9 +41,9 @@
 
 input{
     width: 90%;
-        height: 1rem;
-        padding: 10px;
-        border: 1px solid #A3A3A3;
+    height: 1rem;
+    padding: 10px;
+    border: 1px solid #A3A3A3;
 }
 
 .profile{
@@ -83,4 +83,27 @@ input{
     text-align: left;
     gap: 3rem;
     padding: 2rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+    .dashboard{
+        margin-top: 1rem;
+        width: 85vw;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    .profile{
+        flex-direction: column;
+    }
+    .photo, .info{
+        width: 75vw;
+        margin-left: -2rem;
+    }
+    .heading{
+        width: 50vw;
+    }
+    .title{
+        gap: 1rem;
+    }
 }

@@ -149,3 +149,63 @@ table tbody .delete {
 .centre{
     text-align: center;
 }
+
+@media screen and (max-width: 480px){
+    .dashboard {
+            margin-top: -10px;
+            width: 100vw;
+            height: auto;
+            margin-bottom: 1rem;
+            margin-left: -10px;
+        }
+    
+        /* .container {
+            width: 100vw;
+        } */
+    
+        .main {
+            width: 100%;
+        }
+    
+        header {
+            flex-direction: column;
+            gap: 10px;
+        }
+    
+        .search-add {
+            justify-content: unset;
+        }
+    
+        .search-add span {
+            width: 3rem;
+            display: flex;
+            margin-left: 50px;
+        }
+    
+        .search-add button {
+            width: 10rem;
+            height: 2rem;
+            font-size: medium;
+            font-weight: 200;
+            /* padding-right: 2rem; */
+            padding: 10px 10px 15px 5px;
+            margin-left: 120px;
+        }
+    
+        .plus {
+            display: none;
+        }
+    
+        .content {
+            width: 90vw;
+            overflow: auto;
+            margin-top: 0.5rem;
+        }
+    
+        .search-icon {
+            margin-left: -2rem;
+        }
+        .description{
+            min-width: 20rem;
+        }
+}

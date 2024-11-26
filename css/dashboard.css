@@ -186,6 +186,10 @@ tbody tr:hover {
 }
 
 @media screen and (max-width: 480px){
+    .main{
+        height: auto;
+        width: 70VW;
+    }
     .images{
         width: 100vw;
         height: 20vh;
@@ -215,22 +219,29 @@ tbody tr:hover {
         word-spacing: 0px;
     }
     .info{
-        width: 100%;
+        /* background-color: lightblue; */
+        padding-left: 0rem;
+        margin: ;
+        height: 100vh;
+        width: 100vw;
         flex-direction: column;
+        margin-top: 0px;
         
     }
     .table-container{
-        width: 90vw;
+        width: 85vw;
         overflow-x: auto;
+        padding: 1rem;
     }
     .table{
         width: 100%;
-
+        padding: 0;
+        margin: 0;
     }
     .chart{
         width: 90vw;
     }
     .chart-container{
         margin-left: 1.2rem;
-    }
+    } 
 }
